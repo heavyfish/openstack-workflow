@@ -14,6 +14,7 @@
 
 ## OpenStack
 
+* [P版配置文件](openstack/p-ban-pei-zhi-wen-jian.md)
 * [OpenStack中的打包工具](openstack/untitled.md)
 * [NUMA详解](openstack/numa-xiang-jie.md)
 
