@@ -12,21 +12,21 @@ SHOW VARIABLES LIKE '%char%';
 
 #### 8个 character\_set 变量： <a id="8&#x4E2A;-characterset-&#x53D8;&#x91CF;"></a>
 
-　　**一、character\_set\_client**
+**character\_set\_client**
 
-　　**二、character\_set\_connection**
+**character\_set\_connection**
 
-　　**三、character\_set\_database**
+**character\_set\_database**
 
-　　**四、character\_set\_filesystem**
+**character\_set\_filesystem**
 
-　　**五、character\_set\_results**
+**character\_set\_results**
 
-　　**六、character\_set\_server**
+**character\_set\_server**
 
-　　**七、character\_set\_system**
+**character\_set\_system**
 
-　　**八、character\_sets\_dir**
+**character\_sets\_dir**
 
 ### _一、character\_set\_client_ <a id="&#x4E00;charactersetclient-1"></a>
 
@@ -84,4 +84,36 @@ _**更改以上字符集直接 set character\_set\_XXX = “gbk”;（XXX是写�
 　            D. 若上述值不存在，则使用 **character\_set\_server** 设定值。
 
    3. 最后将操作结果从内部操作字符集转换为 **character\_set\_results**
+
+
+
+### 更改数据库和表字符编码
+
+```text
+#查看指定数据库字符编码
+show create database demo;
+
+#更改指定数据库字符编码
+ALTER DATABASE 'demo' DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+#创建数据库指定字符集
+create database [数据库名称] character set utf8;
+
+#查看指定数据库指定表字符编码
+show create table demo.users;
+
+#更改指定数据库指定表字符编码
+alter table [数据库名称.表名称] character set utf8;
+
+#创建数据库表指定字符编码
+CREATE TABLE `users` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(64) NULL DEFAULT NULL,
+    `password` VARCHAR(64) NULL DEFAULT NULL,
+    PRIMARY KEY (`id`)
+) default COLLATE='utf8_general_ci'  
+
+#更改表字段编码
+alter table [表名称] change [字段名称] [字段名称] [类型] character set utf8;
+```
 
