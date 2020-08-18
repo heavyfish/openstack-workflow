@@ -60,3 +60,7 @@
 
 * [git patch](git/git-patch.md)
 
+## MySQL
+
+* [MySQL中的8个 character\_set 变量](mysql/mysql-zhong-de-8-ge-characterset-bian-liang.md)
+
