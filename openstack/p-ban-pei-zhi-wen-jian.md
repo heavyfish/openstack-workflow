@@ -344,9 +344,13 @@ images_type = rbd
 images_rbd_pool = vms
 images_rbd_ceph_conf = /etc/ceph/ceph.conf
 rbd_user = nova
+rbd_secret_uuid = 5d4fbaf7-6eef-4ae9-908b-f7476cca0dd8
+
+# 用于不同磁盘类型的特定缓存模式
+# For example: file=directsync,block=none,network=writeback
 disk_cachemodes = network=writeback
 hw_disk_discard = unmap
-rbd_secret_uuid = 5d4fbaf7-6eef-4ae9-908b-f7476cca0dd8
+
 
 # libvirt应该采用的虚拟化类型
 virt_type = kvm
