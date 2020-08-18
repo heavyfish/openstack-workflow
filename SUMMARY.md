@@ -17,6 +17,7 @@
 * [OpenStack中的打包工具](openstack/untitled.md)
 * [故障根磁盘挂载修复](openstack/gu-zhang-gen-ci-pan-gua-zai-xiu-fu.md)
 * [NUMA详解](openstack/numa-xiang-jie.md)
+* [mariadb galera 集群恢复](openstack/mariadb-galera-ji-qun-hui-fu.md)
 
 ## Ceph
 
