@@ -4,7 +4,6 @@
 
 ## Linux
 
-* [Untitled](linux/untitled-1.md)
 * [Red Hat 7-管理员指南](linux/red-hat-7-guan-li-yuan-zhi-nan.md)
 * [Systemd入门教程](linux/untitled.md)
 * [Linux 自建rpm仓库](linux/linux-xiao-zhi-shi-dian.md)

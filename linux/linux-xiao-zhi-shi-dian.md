@@ -36,5 +36,7 @@ baseurl=file:///root/rpm
 gpgcheck=0
 ```
 
+[创建远程仓库](https://www.cnblogs.com/qiuhom-1874/p/11487456.html)
+
 
 
