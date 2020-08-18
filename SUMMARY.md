@@ -18,6 +18,7 @@
 * [故障根磁盘挂载修复](openstack/gu-zhang-gen-ci-pan-gua-zai-xiu-fu.md)
 * [NUMA详解](openstack/numa-xiang-jie.md)
 * [mariadb galera 集群恢复](openstack/mariadb-galera-ji-qun-hui-fu.md)
+* [热迁移配置参数](openstack/re-qian-yi-pei-zhi-can-shu.md)
 
 ## Ceph
 
@@ -27,6 +28,7 @@
 ## Django
 
 * [Django2.0搭建](django/django2.0-da-jian.md)
+* [Django 2.0 book 翻译](django/django-2.0-book-fan-yi.md)
 
 ## HTTP
 
