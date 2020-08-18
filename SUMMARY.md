@@ -51,7 +51,3 @@
 
 * [RPC、REST、RESTful](she-ji-jia-gou/rpc-rest-restful.md)
 
-## git
-
-* [git patch](git/git-patch.md)
-
