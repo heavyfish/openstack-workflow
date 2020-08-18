@@ -1,5 +1,7 @@
 # 故障根磁盘挂载修复
 
+参考链接：[kvm在线添加硬件](https://opengers.github.io/virtualization/kvm-online-add-device/)
+
 
 
 1、关闭故障的虚拟机。
