@@ -10,6 +10,7 @@
 * [Megacli工具使用](linux/megacli-gong-ju-shi-yong.md)
 * [NFS服务器搭建](linux/nfs-fu-wu-qi-da-jian.md)
 * [Crash调试](linux/crash-tiao-shi.md)
+* [linux 性能调试](linux/linux-xing-neng-tiao-shi.md)
 
 ## OpenStack
 
@@ -24,6 +25,7 @@
 
 * [Ceph 读写流程](ceph/ceph-du-xie-liu-cheng.md)
 * [Ceph omap](ceph/ceph-omap.md)
+* [ceph 排错](ceph/ceph-pai-cuo.md)
 
 ## Django
 
