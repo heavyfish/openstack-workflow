@@ -99,5 +99,7 @@ filter类似app，只不过换成了paste.filter\_app\_factory，filter首先执
 
 [nova创建虚拟机源码分析系列之三 PasteDeploy](https://www.cnblogs.com/goldsunshine/p/7756153.html)
 
+#### [Paste.deploy](http://www.choudan.net/2013/07/28/OpenStack-paste-deploy%E4%BB%8B%E7%BB%8D.html) <a id="subnav-0"></a>
+
 
 
